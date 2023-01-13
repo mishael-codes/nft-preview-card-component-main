@@ -165,12 +165,12 @@ main {
 }
 
 @media screen and (min-width: 500px){
-  .background{
+  .back{
     margin: 3rem;
   }
 }
 
-@media screen and (min-width: 670px) { 
+@media screen and (min-width: 680px) {
   .background {
     top: 0;
     width: 400px;
