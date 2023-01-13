@@ -170,7 +170,7 @@ main {
   }
 }
 
-@media screen and (min-width: 670px) {
+@media screen and (min-width: 670px) { 
   .background {
     top: 0;
     width: 400px;
