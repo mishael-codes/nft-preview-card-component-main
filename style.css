@@ -164,41 +164,50 @@ main {
   transition: .4s;
 }
 
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 500px){
+  .background{
+    margin: 3rem;
+  }
+}
+
+@media screen and (min-width: 670px) {
   .background {
     top: 0;
-    width: 45vw;
-    height: 80vh;
+    width: 400px;
+    max-height: 530px;
     box-shadow: 0 0 0 2rem hsla(217, 54%, 10%, 0.4);
   }
 
   .card {
     top: -10vh;
     width: 90%;
-    height: calc(100% + 10%);
+    height: fit-content;
     transform: scaleY(0.9);
     margin: 1rem auto 0;
   }
 }
 
 @media screen and (min-width: 800px) {
-  .background {
-    height: 85vh;
+  .background{
+    height: 650px;
+  }
+  .card {
+    height: 600px;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .background {
     top: 0;
-    width: 27vw;
-    height: 75vh;
+    width: 400px;
+    max-height: 530px;
     box-shadow: 0 0 0 2rem hsla(217, 54%, 10%, 0.4);
   }
 
   .card {
     top: -10vh;
     width: 90%;
-    height: calc(100% + 10%);
+    height: fit-content;
     transform: scaleY(0.9);
     margin: 1rem auto 0;
   }
